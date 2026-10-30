@@ -6,6 +6,8 @@ Os NPCs têm um elenco próprio e fichas com perfil, história, Arcana, retrato,
 
 As fotos podem ser enquadradas com arraste, zoom e controles de posição, com prévia antes de aplicar. É possível preencher o espaço ou mostrar a imagem inteira, além de restaurar o enquadramento padrão. Retrato e Arcana têm ajustes independentes, incluídos nos backups, sem alterar o arquivo original.
 
+A aba Vínculo de cada NPC organiza a conexão com os personagens do nível 1 ao 10. Inclui uma visão geral e, em cada nível, tema da evolução, assuntos a desenvolver, condições para avançar, desbloqueios, habilidades e recompensas. Os níveis podem ser abertos individualmente; os indicadores mostram quais já têm anotações de planejamento. Todo o conteúdo usa o salvamento automático, acompanha os backups e pode ser encontrado na busca do arquivo ou do elenco.
+
 A página usa PBKDF2 (SHA-256, 600.000 iterações) e AES-256-GCM para abrir o aplicativo. A senha é solicitada novamente ao recarregar; ela não é gravada no navegador nem em texto aberto no repositório. O salvamento da campanha continua no mesmo armazenamento local do aplicativo.
 
 ## Atualizar o aplicativo
