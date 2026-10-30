@@ -4,6 +4,8 @@ Arquivo pessoal de organização da campanha, com tela de senha na entrada.
 
 Os NPCs têm um elenco próprio e fichas com perfil, história, Arcana, retrato, imagem da Arcana, trama pessoal, aparições em arcos e relações com outros plots. O elenco pode ser filtrado e agrupado por Arcana, arco ou pasta, separado dos textos da campanha. Os backups incluem os campos e as duas imagens; registros antigos continuam compatíveis.
 
+As fotos podem ser enquadradas com arraste, zoom e controles de posição, com prévia antes de aplicar. É possível preencher o espaço ou mostrar a imagem inteira, além de restaurar o enquadramento padrão. Retrato e Arcana têm ajustes independentes, incluídos nos backups, sem alterar o arquivo original.
+
 A página usa PBKDF2 (SHA-256, 600.000 iterações) e AES-256-GCM para abrir o aplicativo. A senha é solicitada novamente ao recarregar; ela não é gravada no navegador nem em texto aberto no repositório. O salvamento da campanha continua no mesmo armazenamento local do aplicativo.
 
 ## Atualizar o aplicativo
